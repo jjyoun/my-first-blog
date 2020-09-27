@@ -6,19 +6,18 @@
         <div>
            <h1><a href="/">Django Girls Blog </a></h1>
         </div>
+{{posts}}
+{% for post in posts %}
+        {{ post }}
+{% endfor %}
 
-        <div>
-            <p>published: 23.09.2020, 12:03</p>
-            <h2><a href="">My first post</a> </h2>
-            <p>Hello. I have no idea what this is saying. Don Tacos elites none me port gravity at egg fetus. Face dap, tell us air conditioning, un ferment mass justice sit I'm right reese's</p>
-        </div>
-
-        <div>
-            <p>published: 23.09.2020, 12:08</p>
-            <h2><a href="">My first post!</a></h2>
-            <p>Anus you leo quam face. Palantir maurice condiments nibble utah florid</p>
-        </div>
-
+{% for post in posts %}
+    <div>
+        <p>published: {{ post.published_date }}</p>
+        <h2><a href="">{{ post.title }}</a></h2>
+        <p>{{ post.text|linebreaksbr }}</p>
+    </div>
+{% endfor %}
         <div>
             <p>published: 23.09.2020, 12:10</p>
             <h2><a href = "">My second post!</a></h2>
