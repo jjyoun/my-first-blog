@@ -1,0 +1,22 @@
+1) Any particular questions I need to prepare for?
+-- Examples of what you used
+
+2) Will there be whiteboarding?
+-TBA
+
+3) Is it a webcam or voice call? Need to know whether i need to dress professionally or just casual since i am WFH
+-voice call
+
+4) What are the next steps? Is postgres a requirement?
+no
+
+5) Am i allowed to take notes during the questioning?
+
+6) do you have any example of questions?
+
+
+Technical assessment -> moves pretty quickly
+
+Environment in mind, theyve done a small part in the migrations.
+
+HUD
